@@ -22,6 +22,7 @@
 
 # Flutter/Dart/Pub related
 **/doc/api/
+**/ios/Flutter/.last_build_id
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
@@ -39,13 +40,7 @@ app.*.symbols
 # Obfuscation related
 app.*.map.json
 
-# Exceptions to above rules.
-!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
-
-ios/.fvm/
-android/local.properties
-android/gradlew.bat
-android/gradlew
-ios/ios
-ios/android
-.gradle
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
